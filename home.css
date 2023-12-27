@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   display: 100%;
+   margin-bottom: 50px;
+   position: static;
+   z-index: 999;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+  background-color: rgb(26, 23, 23);
+}
+header .logo{
+    width: 30%;
+
+}
+header .logo img{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+header .nav{
+    width: 30%;
+}
+header .nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header .nav ul li{
+    margin-right: 30px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+}
+section{
+    min-height: 70vh;
+    margin-top: 100px;
+    display: block;
+    padding: 10px;
+}
+.home{
+    background-image: url('images/freeegazaaaa.jpg');
+    background-repeat: repeat;
+   
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.home .main h1{
+    color: orangered;
+    font-size: 2em;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+.home .main p{
+    color: white;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px black;
+    margin-top: 20px;
+
+}
+
+.partTwo h1{
+    text-align: center;
+    color: orangered;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.partTwo .container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    
+    
+}
+.partTwo .container div{
+    width: calc((100% / 3) - 40px);
+   
+    height: 500px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partTwo .container div .img{
+   margin-bottom: 10px;
+
+}
+.partTwo .container div .text{
+    width: 100%;
+}
+.partTwo .container div .text h2{
+    
+    color: orangered;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.partTwo .container div .text p{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(40, 38, 38);
+}
+.partThree{
+    
+    display: flex;
+    justify-content: center;
+}
+.partThree .container{
+    
+    width: 70%;
+    height: 700px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+.partThree .container div{
+     
+    width: calc((100% / 3) - 30px);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.partThree .container div h1{
+    color: orangered;
+    position: relative;
+    top: 220px;
+    right: 80px;
+    text-transform: capitalize;
+}
+.active-link{
+    color: blue;
+    font-size: 1.4em;
+}
+
+

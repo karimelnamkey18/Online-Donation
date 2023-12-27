@@ -1,0 +1,218 @@
+.main{
+    min-height: 100vh;
+    background-image: url(images/aboutusssa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .text{
+    text-align: center;
+    width: 400px;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    border-bottom: 2px solid white;
+}
+.two{
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two .container{
+   
+    width: 80%;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.two .container div{
+    width: calc((100% / 2) - 60px);
+    height: 100%;
+}
+.two .container div h1{
+    color: rgb(36, 36, 239);
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+.two .container div p{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.two .container div img{
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.third{
+    min-height: 60vh;
+    background-color: rgb(222, 215, 205);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.third div{
+    width: calc(80%);
+    
+    
+}
+.third .one{
+   text-align: center;
+   
+}
+.third .one h1{
+    color: rgb(36, 36, 239);
+    margin-top: 50px;
+    font-size: 3em;
+
+}
+.third .two{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.third .two div{
+    background: white;
+    height: 250px;
+    width: calc((100% / 3) - 100px);
+    border-radius: 30px;
+    margin: 0 20px;
+    padding: 10px;
+    position: relative;
+}
+.third .two div h1{
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(36, 36, 239);
+}
+
+.third .two div p{
+    font-size: 1.2em;
+}
+.third .two div img{
+    position: absolute;
+    top: -70px;
+    left: 125px;
+
+}
+
+.four{
+    min-height: 60vh;
+    background-color: rgb(36, 36, 239);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.third div{
+    width: calc(90%);
+    
+    
+}
+.four .one{
+   text-align: center;
+   
+}
+.four .one h1{
+    color: white;
+    margin-top: 50px;
+    font-size: 3em;
+
+}
+.four .two{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.four .two div{
+    background: white;
+    height: 250px;
+   width: 300px;
+    border-radius: 30px;
+    margin: 0 20px;
+    padding: 10px;
+    position: relative;
+}
+.four .two div h1{
+    text-align: center;
+   
+    color: rgb(36, 36, 239);
+}
+
+
+.four .two div img{
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   display: 100%;
+   margin-bottom: 50px;
+   position: static;
+   z-index: 999;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+  background-color: rgb(26, 23, 23);
+  
+
+}
+header .logo{
+    width: 30%;
+
+}
+header .logo img{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+header .nav{
+    width: 30%;
+}
+header .nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header .nav ul li{
+    margin-right: 30px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+}
+.one{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
